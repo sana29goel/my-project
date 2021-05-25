@@ -67,6 +67,7 @@ color: white;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    box-sizing: border-box;
     margin: 20px 10px;
 }
 .head{
@@ -91,4 +92,15 @@ color: white;
 .details p{
     font-size: 2vw;
     color: coral;
+}
+
+.card-image{
+    height: 300px !important;
+
+}
+
+.profile{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
